@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#showing my bash PID
+ps -ef | grep bash | grep -v grep
