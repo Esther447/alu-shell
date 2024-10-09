@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 #This is the liste of my process
-ps -eHf
+
+ps -ef | grep "[b]ash"
+
