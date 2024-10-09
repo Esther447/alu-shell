@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#we going to highlanding
+kill -SIGTERM <PID>
