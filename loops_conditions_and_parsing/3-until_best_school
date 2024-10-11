@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#This script will display 10 line "Best School" by using until loop
+
+count=1
+until [ $count -gt 10 ]
+do
+echo "Best School"
+((count++)) 
+done
+
