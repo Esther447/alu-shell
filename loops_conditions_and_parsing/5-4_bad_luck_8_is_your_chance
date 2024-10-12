@@ -1,22 +1,33 @@
-#!/usr/bin/env bash
-#Will Write a Bash script that loops from 1 to 10 and:
+#!/bin/bash
 
-displays" bad luck" for the 4th loop iteration
-displays "good luck" for the 8th loop iteration
-displays "Best School" for the other iterations
+# Initialize the counter
 i=1
 
-while [ $i -le 10 ]
-do 
+# Start the while loop
+while [ $i -le 20 ]
+do
+    # Check for the 4th iteration
     if [ $i -eq 4 ]
     then
-    echo "bad luck"
-    elif [ $i -eq 8 ]
-    then 
-    echo "good luck"
+        echo "4: bad luck from China"
+    # Check for the 9th iteration
+    elif [ $i -eq 9 ]
+    then
+        echo "9: bad luck from Japan"
+    # Check for the 17th iteration
+    elif [ $i -eq 17 ]
+    then
+        echo "17: bad luck from Italy"
+    # For all other iterations
     else
-    echo "Best School"
+        echo $i
     fi
+    # Increment the counter
     i=$((i + 1))
 done
-
+Explanation:
+The script initializes a counter (i=1).
+The while loop runs as long as i is less than or equal to 20.
+The if, elif, and else blocks handle the specific cases for the 4th, 9th, and 17th iterations, displaying the appropriate "bad luck" messages.
+For all other numbers, it just prints the current number.
+The counter is incremented at the end of each loop.
