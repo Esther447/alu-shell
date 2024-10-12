@@ -1,28 +1,24 @@
 #!/usr/bin/env bash
+
 #Write a Bash script that loops from 1 to 10 and:
 
 displays bad luck for the 4th loop iteration
 displays good luck for the 8th loop iteration
 displays Best School for the other iterations
 
-# Initialize the counter
 i=1
 
-# Start the while loop
-while [ $i -le 20 ]
+while [ $i -le 10 ]
 do
-    if [ $i -eq 4 ]
-    then
-	    echo "4: bad luck from China"
-    elif [ $i -eq 9 ]
-    then
-        echo "9: bad luck from Japan"
-    elif [ $i -eq 17 ]
-    then
-        echo "17: bad luck from Itarations
-    else
-        echo $i
-    fi
-    # Increment the counter
-    i=$((i + 1))  # Correct incrementing of counter
+
+	if [ $i -eq 4 ]
+	then
+		echo "bad luck"
+	elif [ $i -eq 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	i=((i + 1))
 done
