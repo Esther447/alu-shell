@@ -11,19 +11,15 @@ i=1
 # Start the while loop
 while [ $i -le 20 ]
 do
-    # Check for the 4th iteration
     if [ $i -eq 4 ]
     then
-        echo "4: bad luck from China"
-    # Check for the 9th iteration
+	    echo "4: bad luck from China"
     elif [ $i -eq 9 ]
     then
         echo "9: bad luck from Japan"
-    # Check for the 17th iteration
     elif [ $i -eq 17 ]
     then
-        echo "17: bad luck from Italy"
-    # For all other iterations
+        echo "17: bad luck from Itarations
     else
         echo $i
     fi
