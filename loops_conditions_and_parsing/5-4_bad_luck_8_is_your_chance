@@ -18,5 +18,6 @@ do
 	else
 		echo "Best School"
 	fi
+	#increment the counter
 	i=$((i + 1))
 done
