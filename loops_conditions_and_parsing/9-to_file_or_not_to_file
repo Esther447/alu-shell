@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#This script will display information about the school file.
+
+if [[ -e school ]]; then
+    echo "shool file exits"
+
+    if [[ -f school ]]; then 
+        echo "school is a regular file"
+     fi
+     
+     if [[ -s school ]]; then
+         echo "school file is not empty"
+     
+     else 
+         echo "school file is empty"
+     fi
+
+
+else 
+    echco "school file does not exit"
+fi
