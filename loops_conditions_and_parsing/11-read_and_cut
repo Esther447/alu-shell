@@ -8,4 +8,3 @@ do
     echo "Home Directory: $home_dir"
     echo
 done < /etc/passwd
-
