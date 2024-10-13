@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #Write a Bash script that loops from 1 to 10 and:
-displays bad luck  to the 4th loop iteration
-displays good luck to the 8th loop iteration
-displays Best School to the other iterations
+#displays bad luck  to the 4th loop iteration
+#displays good luck to the 8th loop iteration
+#displays Best School to the other iterations
 
 i=1
 
