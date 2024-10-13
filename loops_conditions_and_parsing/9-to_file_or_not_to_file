@@ -4,9 +4,9 @@
 i="school"
 if [[ -e $i ]]; then
     if [[ -f $i ]]; then
-        echo" $i file exists and is a regular file"
+        echo "$i file exists and is a regular file"
 
-        if [[ -s "$i ]]; then
+        if [[ -s $i ]]; then
             echo "$i file is not empty"
         else
             echo "$i file is empty"
