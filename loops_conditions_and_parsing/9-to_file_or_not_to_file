@@ -6,7 +6,6 @@ if [[ -e school ]]; then
 
     if [[ -f school ]]; then 
         echo "school is a regular file"
-     fi
      
      if [[ -s school ]]; then
          echo "school file is not empty"
@@ -14,8 +13,8 @@ if [[ -e school ]]; then
      else 
          echo "school file is empty"
      fi
-
+  fi
 
 else 
-    echco "school file does not exit"
+    echo "school file does not exit"
 fi
